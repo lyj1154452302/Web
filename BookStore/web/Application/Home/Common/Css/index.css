@@ -1,0 +1,99 @@
+#shopping{
+	width: 1100px;
+	height: 730px;
+	margin: 0 auto;
+/*	border: 1px solid black;*/
+	/*background: white;*/
+}
+#new_menu{        /*新书区*/
+	margin-top: 3px;
+	margin-left: 5px;
+	width: 1090px;
+	height: 360px;
+/*	border: 1px solid black;*/
+/*	border-bottom: 1px solid white;*/
+	float: left;
+}
+#new_recommend{  /*新书推荐区*/
+	float: left;
+	width: 860px;
+	height: 315px;
+/*	border: 1px solid black;*/
+	margin: 2px;
+}
+#new_rank{      /*新书排行区*/
+	float: left;
+	width: 208px;
+	height: 285px;
+/*	border: 1px solid black;*/
+	margin: 2px;
+	margin-left: 8px;
+}
+#hot_menu{      /*热销书区*/
+/*	margin-top: 5px;*/
+	margin-left: 5px;
+	width: 1090px;
+	height: 360px;
+/*	border-bottom: 1px solid white;*/
+	float: left;
+}
+#hot_recommend{ /*热销书推荐区*/
+	float: left;
+	width: 860px;
+	height: 355px;
+	margin: 2px;
+}
+#hot_rank{      /*热销书排行区*/
+	float: left;
+	width: 208px;
+	height: 285px;
+/*	border: 1px solid black;*/
+	margin: 2px;
+	margin-left: 8px;
+}
+.title{
+	color: white;
+	border-bottom: 1px solid white;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.recommend_list{
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 15px;
+	width: 200px;
+	height: 280px;
+	color: white;
+}
+.recommend_list h4{
+	width: 120px;
+	height: 40px;
+	/*line-height: 20px;*/
+	font-weight: normal;
+	margin-top: 6px;
+	margin-left: 40px;
+	margin-bottom: 6px;
+}
+.recommend_list a{
+	font-size: 14px;
+}
+.recommend_list span{
+	font-size: 14px;
+}
+.rank_list{
+	float: left;
+	width: 186px;
+	height: 29px;
+	margin: 2px;
+	margin-left: 8px;
+	line-height: 29px;
+	padding-left: 10px;
+	border-bottom: 1px solid white;
+}
+
+.rank_list a{
+	font-size: 12px;
+	color: white;
+}

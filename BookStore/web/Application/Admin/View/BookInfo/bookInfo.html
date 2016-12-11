@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>书本详情</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="__PUBLIC__/css/main.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="__ADMINCSS__/details.css"/>
+<script src="__PUBLIC__/jquery2.js" type="text/javascript"></script>
+<script src="__PUBLIC__/jquery.js" type="text/javascript"></script>
+<script src="__PUBLIC__/jquery.cookie.js" type="text/javascript"></script>
+<script src="__PUBLIC__/usertip.js" type="text/javascript"></script>
+</head>
+    <body>
+		<div id="header">
+    		<include file="./Application/Home/View/Public/header.html" />
+    	</div>
+    	<div id="container">
+    		<div id="jianjie">
+                <div id="left_img">
+                    <div id="img">
+                        <volist name="arr" id="details_vo">
+                            <img src="__PUBLIC__/images/books/{$details_vo['img']}" alt="" />
+                        </volist>
+                    </div>
+                    <div id="img_list">
+                        <p>img_list</p>
+                    </div>
+                </div>
+                <div id="right_content">
+                    <div id="right_content_header">
+                        <h3>{$details_vo.bookname}</h3>
+                        <br />
+                        <p>{$details_vo.bookinfo}</p>
+                    </div>
+                    <div id="right_content_center">
+                        <div id="messbox_info">
+                            <span id="author">
+                                作者:&nbsp;{$details_vo['author']}
+                            </span>
+                            <span id="publisher">
+                                &nbsp;&nbsp;&nbsp;&nbsp;出版社:&nbsp;{$details_vo['publisher']}
+                            </span>
+                            <span id="pubTime">
+                                &nbsp;&nbsp;&nbsp;&nbsp;出版时间:&nbsp;{$details_vo['pubyear']}年{$details_vo['pubmonth']}月
+                            </span>
+                            <br />
+                            <br />
+                            <span>
+                                页数:&nbsp;{$details_vo['totalpage']}
+                            </span>
+                            <span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;字数:&nbsp;{$details_vo['totalword']}
+                            </span>
+                            <span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;出版次数:&nbsp;{$details_vo['pubnum']}
+                            </span>
+                            <span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;ISBN:&nbsp;{$details_vo['isbn']}
+                            </span>
+                        </div>
+                        <br />
+                        <div id="comments">
+                            当前评价数:0条
+                        </div>
+                        <br />
+                        <div id="price">
+                            <div class="priceNow">
+                                <p>当当价</p>
+                                <p class="nowprice">¥{$details_vo['price1']}</p>
+                            </div>
+                            <div class="priceOri">
+                                <span>¥{$details_vo['price2']}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="alter">
+                    	&nbsp;&nbsp;<a href="{:U('BookInfo/alterInfo','id='.$details_vo['boaid'])}"><input type="button" value="点此修改此书本信息" style="color:black;"/></a>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </body>
+</html>

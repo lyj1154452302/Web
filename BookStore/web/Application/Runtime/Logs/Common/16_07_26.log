@@ -1,0 +1,954 @@
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/includes/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-26T13:18:59+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:59+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:59+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:18:59+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/includes/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:00+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/includes/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.017001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046002s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.016001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:31+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/includes/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:43+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:43+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:43+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:19:43+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/includes/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:20:03+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:22:32+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:23:33+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:42+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033002s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:44+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T13:42:58+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:41:19+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027002s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:42:02+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/second_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.066004s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/index_menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/price.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/add_shopping.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-07-26T14:45:57+08:00 ] 127.0.0.1 /lyj/TPwankuOnline/web/index.php/scripts/adchange.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Scripts
+

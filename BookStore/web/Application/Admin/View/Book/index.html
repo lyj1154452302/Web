@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>商品管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="__PUBLIC__/css/main.css" type="text/css"/>
+<link rel="stylesheet" href="__ADMINCSS__/book.css" type="text/css"/>
+<script src="__PUBLIC__/jquery2.js" type="text/javascript"></script>
+<script src="__PUBLIC__/jquery.js" type="text/javascript"></script>
+<script src="__PUBLIC__/jquery.cookie.js" type="text/javascript"></script>
+<script src="__PUBLIC__/usertip.js" type="text/javascript"></script>
+<script src="__ADMINJS__/deleteBook.js" type="text/javascript"></script>
+</head>
+    <body>
+    	<div id="header">
+    		<include file="./Application/Home/View/Public/header.html" />
+    	</div>
+    	<div id="count">
+    		当前上线书本总数：{$book}
+    	</div>
+    	<div id="book">
+    		<p>
+    			<a href="/lyj/BookStore/web/index.php/Admin/Book/addBook.html"><input type="button" value="上线书本" style="color:black;"/></a>
+    			<input type="button" name="del_btn" value="下架所选书本" style="color:black;" />
+    		</p>
+    		<br />
+    		<p id="title">
+    			<span>书本编号</span>
+    			<span>书本名称</span>
+    		</p>
+    		<br />
+    		<foreach name="booklist" item="bl_vo">
+				<div class="booklist">
+					<input type="checkbox" name="delete" />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="boaid">{$bl_vo.boaid}</span>
+					<span>{$bl_vo.bookname}</span>
+					<a href="{:U('BookInfo/bookInfo','id='.$bl_vo['boaid'])}" class="bianji">编辑</a>
+					<br />
+					<br />
+				</div>
+    		</foreach>	
+    	</div>
+    </body>
+</html>

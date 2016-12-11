@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+#cartform{
+	width: 900px;
+	height: 100px;
+	margin-left: 300px;
+	margin-top: 60px;
+}
+#title{
+	margin-left: 50px;
+}
+#title span{
+	margin-right: 150px;
+}
+.cartlist{
+	width: 900px;
+	height: 70px;
+	/*line-height: 70px;*/
+}
+/*.cartlist span{
+	margin-right: 90px;
+}*/
+.bookName{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	/*line-height: 50px;*/
+}
+.bookNum{
+	margin-left: 90px;
+}
+.bookPrice{
+	margin-left: 160px;
+}
+.countPrice{
+	margin-left: 140px;
+}

@@ -1,0 +1,130 @@
+[ 2016-08-18T12:39:15+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0870s ]
+ERR: 1146:Table 'bookstore.books' doesn't exist
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img` FROM `bookstore_newbook_recommend` left join books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join book_all ON bookstore_book_all.bookId = bookstore_books.bookId  LIMIT 4  
+ERR: 1146:Table 'bookstore.books' doesn't exist
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img` FROM `bookstore_newbook_recommend` left join books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join book_all ON bookstore_book_all.bookId = bookstore_books.bookId  LIMIT 4  
+
+[ 2016-08-18T12:39:53+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0050s ]
+ERR: 1146:Table 'bookstore.books' doesn't exist
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join book_all ON bookstore_book_all.bookId = bookstore_books.bookId  
+ERR: 1146:Table 'bookstore.books' doesn't exist
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join book_all ON bookstore_book_all.bookId = bookstore_books.bookId  
+
+[ 2016-08-18T12:40:40+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'bookstore_newbook_recommend.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_book_all.bookId = bookstore_books.bookId  
+ERR: 1054:Unknown column 'bookstore_newbook_recommend.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_book_all.bookId = bookstore_books.bookId  
+
+[ 2016-08-18T12:42:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'bookstore_newbook_recommend.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1054:Unknown column 'bookstore_newbook_recommend.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-18T12:43:14+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0040s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-18T13:40:35+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0050s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-18T13:41:29+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0200s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-18T13:41:33+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0040s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-18T13:42:00+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0030s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-18T14:11:19+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0210s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+

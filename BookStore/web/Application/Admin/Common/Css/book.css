@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+#count{
+	width: 200px;
+	height: 50px;
+	margin-top: 70px;
+	margin-left: 330px;
+}
+#book{
+	width: 750px;
+	height: 100px;
+	margin-left: 330px;
+}
+#title{
+	margin-left: 50px;
+}
+#title span{
+	margin-right: 170px;
+}
+.booklist{
+	width: 700px;
+	height: 30px;
+	line-height: 30px;
+}
+.bianji{
+	float: right;
+}
+.booklist span{
+	margin-right: 200px;
+}

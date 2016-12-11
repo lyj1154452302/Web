@@ -1,0 +1,3 @@
+WAMP组件搭建的服务器：Apache Mysql phpMyAdmin PHP
+
+后端框架：thinkPHP

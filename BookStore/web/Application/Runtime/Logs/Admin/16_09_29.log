@@ -1,0 +1,2814 @@
+[ 2016-09-29T18:50:51+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_order` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T18:50:53+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T18:50:54+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/BookInfo/bookInfo/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T18:50:56+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/BookInfo/alterInfo/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\4b0bfd1e1eb00f0041e1255325bfbed0.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-29T18:51:04+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T18:51:06+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T19:05:21+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:06:02+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:06:52+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:14:36+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:14:40+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:14:40+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:14:48+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecf7a8b5b13.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bookstore_book_all` SET `img`='2016-09-29/57ecf7a8b5b13.jpg' WHERE ( boaId= )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bookstore_book_all` SET `img`='2016-09-29/57ecf7a8b5b13.jpg' WHERE ( boaId= )
+
+[ 2016-09-29T19:16:45+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:16:46+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:16:52+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecf824a59f3.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:17:39+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:18:54+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:18:58+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecf8a28e3a5.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:20:45+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_user`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:20:46+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:20:47+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:20:51+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecf9136f42e.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:25:16+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:25:18+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:25:23+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecfa233d119.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:25:25+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:36:08+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 86 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 92 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:36:37+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 87 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:37:28+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 87 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:37:32+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:37:33+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 87 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:37:38+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecfd027869d.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T19:39:44+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 87 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T19:39:49+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecfd85eede2.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T19:39:55+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecfd8b047e9.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T19:39:58+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ecfd8e502de.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T19:57:15+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 87 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T19:57:24+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:57:25+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 87 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 93 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T19:57:30+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed01aa9b15e.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:23:03+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:23:04+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:23:07+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:23:08+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T20:23:56+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:24:11+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T20:24:12+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-29T20:25:25+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T20:26:16+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:26:20+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:26:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:28:59+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:29:00+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:29:06+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed0912bec90.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T20:40:22+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_order` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T20:40:24+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T20:40:25+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T20:55:05+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:55:06+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:55:17+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed0f355cc96.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:57:59+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:58:08+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:58:14+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed0fe693c7a.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T20:58:15+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 88 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T21:17:12+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:17:13+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 89 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:18:36+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 89 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 94 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:22:48+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T21:22:48+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T21:23:12+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T21:23:49+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:23:50+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:23:52+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:23:53+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:24:00+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T21:24:00+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:24:07+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T21:24:07+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:24:14+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T21:24:14+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:25:19+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:25:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:25:26+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:25:28+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:25:45+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:25:46+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:25:51+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T21:25:54+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:26:01+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:27:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T21:27:23+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:28:46+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T21:28:57+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('/lyj/BookStore/web/index.php/Admin/Book/_upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:{:U('
+
+[ 2016-09-29T21:28:59+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:28:59+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:31:06+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T21:31:07+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:31:08+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:31:18+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('/lyj/BookStore/web/index.php/Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('
+
+[ 2016-09-29T21:31:19+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:31:23+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:32:33+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('/lyj/BookStore/web/index.php/Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('
+
+[ 2016-09-29T21:32:34+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:47:36+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:47:42+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:upload.php
+
+[ 2016-09-29T21:47:43+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:upload.php%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:47:45+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:upload.php%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:48:13+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:48:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:upload.php
+
+[ 2016-09-29T21:48:23+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:upload.php%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:48:30+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:upload.php%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T21:49:17+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T21:49:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('/lyj/BookStore/web/index.php/Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('
+
+[ 2016-09-29T21:49:23+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:08:44+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:09:17+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:09:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('/lyj/BookStore/web/index.php/Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('
+
+[ 2016-09-29T23:09:26+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:09:27+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:12:47+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:13:06+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:13:12+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Book
+
+[ 2016-09-29T23:13:13+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:13:15+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Book%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:13:32+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:13:36+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Admin
+
+[ 2016-09-29T23:13:38+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Admin%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:13:40+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Admin%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:14:15+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:14:19+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('Admin
+
+[ 2016-09-29T23:14:20+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('Admin%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:14:51+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T23:14:54+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('upload')}
+
+[ 2016-09-29T23:14:55+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('upload')%7D%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:14:57+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('upload')%7D%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:15:18+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T23:15:24+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/%7B:U('/lyj/BookStore/web/index.php/Admin/Book/upload')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:{:U('
+
+[ 2016-09-29T23:15:25+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3E%E9%9D%9E%E6%B3%95%E6%93%8D%E4%BD%9C:%7B:U('%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/ThinkPHP/Library/Think/Controller.class.php%20%E3%80%80LINE:%20170%3C/p%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3ETRACE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:16:51+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Admin/Book/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bookstore_books` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_book_all`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T23:16:52+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 90 行.
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-29T23:16:55+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed3067f1d76.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:16:57+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cpre%3E%222016-09-29//57ed3067f1d76.jpg%22%3C/pre%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:17:01+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cpre%3E%222016-09-29//57ed3067f1d76.jpg%22%3C/pre%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:17:44+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T23:17:57+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed30a5e0f42.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:17:59+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cpre%3E%222016-09-29//57ed30a5e0f42.jpg%22%3C/pre%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:18:00+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cpre%3E%222016-09-29//57ed30a5e0f42.jpg%22%3C/pre%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:18:44+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:18:47+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed30d78e738.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:19:59+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cpre%3E%222016-09-29//57ed30d78e738.jpg%22%3C/pre%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:20:00+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:20:07+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T23:20:10+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed312abe937.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:22:20+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cpre%3E&lt;script&gt;alert(%222016-09-29/57ed312abe937.jpg%22)&lt;/script&gt;%222016-09-29//57ed312abe937.jpg%22%3C/pre%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:22:21+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-29T23:22:24+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed31b0ecb10.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:24:08+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-29T23:24:14+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed321e4a565.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:26:38+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T23:26:43+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed32b30463d.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant response - assumed 'response' C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 67 行.
+
+[ 2016-09-29T23:27:22+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3ECall%20to%20undefined%20function%20Admin/Controller/setContentType()%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/Application/Admin/Controller/BookController.class.php%20%E3%80%80LINE:%2067%3C/p%3E%3C/div%3E%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22copyright%22%3E%3Cp%3E%3Ca%20title=%22%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%22%20href=%22http://www.thinkphp.cn%22%3EThinkPHP%3C/a%3E%3Csup%3E3.2.3%3C/sup%3E%20%7B%20Fast%20&amp;%20Simple%20OOP%20PHP%20Framework%20%7D%20--%20[%20WE%20CAN%20DO%20IT%20JUST%20THINK%20]%3C/p%3E%3C/div%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:27:24+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-29T23:27:28+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed32e0572b5.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+
+[ 2016-09-29T23:27:30+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3ECall%20to%20undefined%20function%20Admin/Controller/setContentType()%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/Application/Admin/Controller/BookController.class.php%20%E3%80%80LINE:%2067%3C/p%3E%3C/div%3E%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22copyright%22%3E%3Cp%3E%3Ca%20title=%22%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%22%20href=%22http://www.thinkphp.cn%22%3EThinkPHP%3C/a%3E%3Csup%3E3.2.3%3C/sup%3E%20%7B%20Fast%20&amp;%20Simple%20OOP%20PHP%20Framework%20%7D%20--%20[%20WE%20CAN%20DO%20IT%20JUST%20THINK%20]%3C/p%3E%3C/div%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-09-29T23:56:20+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/addBook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: details_vo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 95 行.
+NOTIC: [8] Undefined variable: newpath C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Admin\352ea623fd6e2d9f5e9fe55552307fa6.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-09-29T23:56:28+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\lyj\BookStore\web\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: boaid C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 45 行.
+NOTIC: [2] getimagesize(../Public/images/books/2016-09-29/57ed39ac1d6bd.jpg): failed to open stream: No such file or directory C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant response - assumed 'response' C:\wamp\www\lyj\BookStore\web\Application\Admin\Controller\BookController.class.php 第 67 行.
+
+[ 2016-09-29T23:56:31+08:00 ] 127.0.0.1 /lyj/BookStore/web/index.php/Admin/Book/__PUBLIC__/images/books/%3Cdiv%20class=%22error%22%3E%3Cp%20class=%22face%22%3E:(%3C/p%3E%3Ch1%3ECall%20to%20undefined%20function%20Admin/Controller/setContentType()%3C/h1%3E%3Cdiv%20class=%22content%22%3E%3Cdiv%20class=%22info%22%3E%3Cdiv%20class=%22title%22%3E%3Ch3%3E%E9%94%99%E8%AF%AF%E4%BD%8D%E7%BD%AE%3C/h3%3E%3C/div%3E%3Cdiv%20class=%22text%22%3E%3Cp%3EFILE:%20C:/wamp/www/lyj/BookStore/web/Application/Admin/Controller/BookController.class.php%20%E3%80%80LINE:%2067%3C/p%3E%3C/div%3E%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22copyright%22%3E%3Cp%3E%3Ca%20title=%22%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%22%20href=%22http://www.thinkphp.cn%22%3EThinkPHP%3C/a%3E%3Csup%3E3.2.3%3C/sup%3E%20%7B%20Fast%20&amp;%20Simple%20OOP%20PHP%20Framework%20%7D%20--%20[%20WE%20CAN%20DO%20IT%20JUST%20THINK%20]%3C/p%3E%3C/div%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:__PUBLIC__
+

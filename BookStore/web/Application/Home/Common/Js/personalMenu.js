@@ -1,0 +1,14 @@
+$(function(){
+	$("#person").mouseover(function(){
+		$("#personalSecondMenu").show();
+	});
+	$("#person").mouseout(function(){
+		$("#personalSecondMenu").hide();
+	});
+	$("#personalSecondMenu").mouseover(function(){
+		$("#personalSecondMenu").show();
+	});
+	$("#personalSecondMenu").mouseout(function(){
+		$("#personalSecondMenu").hide();
+	});
+})

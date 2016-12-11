@@ -1,0 +1,442 @@
+[ 2016-08-28T14:06:37+08:00 ] 127.0.0.1 /lyj/bookstore/web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrecommend=1 ) LIMIT 4   [ RunTime:0.1950s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrank=1 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrecommend=1 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrank=1 ) LIMIT 4   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:06:42+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-28T14:07:08+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrank=1 ) LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrank=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:07:09+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:24:13+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-28T14:24:19+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_user` [ RunTime:0.0940s ]
+SQL: SELECT * FROM `bookstore_user` WHERE ( account='lyj1' ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `bookstore_user` WHERE ( account='lyj1' AND passwd=SHA1('1234') ) LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2016-08-28T14:24:19+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Login/loggedin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:24:21+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrank=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrank=1 ) LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-08-28T14:24:26+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-28T14:24:30+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-28T14:24:33+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:24:38+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:24:47+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:24:47+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-28T14:25:24+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-28T14:25:26+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrank=1 ) LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrank=1 ) LIMIT 4   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-28T14:25:28+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-28T14:25:32+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifNbrank=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrecommend=1 ) LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( ifHbrank=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-28T14:25:35+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,392 @@
+*{
+	padding: 0;
+	margin: 0;
+	/*color: white;*/
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+body{
+	background: url(../images/background-1.jpg);
+}
+#Header{
+	/*border: 1px solid black;
+	border-top: none;*/
+}
+#Header h1{
+	padding-left: 350px;
+	padding-top: 20px;
+}
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 200px;
+}
+#header_content{
+	width: 1100px;
+	height: 100px;
+	margin: 0 auto;
+	/*background: gray;*/
+}
+#user_tip{
+	position: absolute;
+	top: 113px;
+	left: 170px;
+	height: 38px;
+	width: 150px;
+	text-align: center;
+}
+#user_tip h3{
+	color: white;
+	font-size: 18px;
+	margin: 0;
+	font-weight: 400;
+}
+#Menu{
+	position: absolute;
+	left: 328px;
+	top: 104px;
+	float: left;
+	width: 898px;
+	height: 38px;
+	/*background: url(../images/header_caption_background.jpg);*/
+}
+/*菜单栏*/
+#Menu span{
+	display: inline-block;
+}
+#Menu a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 8px;
+/*	font-weight: bold;*/
+	color: white;
+	/*margin-right: 5px;*/
+	width: 120px;
+	height: 38px;
+	line-height: 38px;
+	background: url(../images/header_caption_background.jpg);
+}
+#personalSecondMenu{
+	width: 140px;
+	height: 65px;
+	position: absolute;
+	top: 38px;
+	left: 255px;
+	display: none;
+	z-index: 15;
+}
+#personalSecondMenu a{
+	display: block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid white;
+	background: url(../images/header_caption_background.jpg);
+}
+#content{
+	width: 1100px;
+	height: 495px;
+	margin: 0 auto;
+	margin-top: 45px;
+	/*background: blue;*/
+}
+#index_h2{
+	padding-left: 200px;
+	padding-top: 20px;
+}
+#index_nav{
+	position: absolute;
+	top: 145px;
+	left: 133px;
+	width: 185px;
+	height: 490px;
+	/*background: green;*/
+}
+#index_nav ul li{
+	display: block;
+	width: 183px;
+	height: 48px;
+	line-height: 48px;
+	border-bottom:1px solid #ccc;
+	/*border-bottom: none;*/
+}
+#index_nav ul li a{
+	display: block;
+	width: 183px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.sorts_pages{
+	width: 1100px;
+	height: 495px;
+	margin: 0 auto;
+	margin-top: 45px;
+	/*background: blue;*/
+}
+.sorts_pages_show{
+	width: 860px;
+	height: 443px;
+	margin-top: 30px;
+	margin-left: 215px;
+	float: left;
+/*	border: 1px solid black;*/
+	overflow: hidden;
+	position: relative;
+	color: white;
+}
+.sorts_pages_show a{
+	color: white;
+}
+.sorts_pages_show_content{
+	position: absolute;
+	width: 2000px;
+}
+.first_ul{
+	margin: 10px 0 0 0px;
+	float: left;
+	height: 430px;
+}
+.first_li{
+	display: inline;
+	width: 285px;
+	height: 430px;
+	float: left;
+/*	border: 1px solid black;*/
+}
+.second_ul{
+	float: left;
+}
+.second_ul li{
+	display: inline;
+	width: 285px;
+	height: 210px;
+	float: left;
+/*	border: 1px solid black;*/
+}
+.second_ul li img{
+	margin: 2px 0 0 80px;
+}
+.second_ul li h4{
+	font-size: 14px;
+	width: 220px;
+	margin-left: 30px;
+	text-align: center;
+}
+.second_ul li span{
+	font-size: 14px;
+	width: 200px;
+	margin-left: 102px;
+}
+.tips{
+	position: absolute;
+	top: 610px;
+	left: 700px;
+	width: 300px;
+	color: white;
+}
+.tips span{
+	margin-right: 7px;
+	cursor: pointer;
+}
+#index_ad{
+	width: 650px;
+	height: 485px;
+	background: red;
+	margin-top: 5px;
+	margin-left: 195px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+#index_ad a img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+#image_caption{
+	float: left;
+	position: absolute;
+	top: 610px;
+	left: 590px;
+	z-index: 15;
+/*	overflow: hidden;*/
+}
+#image_caption img{
+	float: left;
+	display:block;
+	margin-right: 10px;
+	cursor: pointer;
+/*	overflow: hidden;*/
+}
+#index_ad_right{
+	width: 250px;
+	height: 490px;
+/*	background: yellow;*/
+	margin-left: 852px; 
+}
+#special{
+	position: relative;
+	width: 250px;
+	height: 485px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-top: 5px;
+/*	border: 1px solid black;*/
+}
+
+/*注册、登录模块*/
+
+#register{
+	margin-left: 330px;
+	margin-top: 80px;
+	color: white;
+	font-size: 18px;
+}
+#register h2{
+	margin-bottom: 6px;
+}
+#register form input{
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	height: 25px;
+}
+#register form span{
+	float: left;
+	width: 80px;
+	text-align: left;
+	position: relative;
+}
+#register p{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+.re_tips{
+	display: block;
+	width: 260px;
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	padding-left: 80px;
+}
+.verify{
+	position: absolute;
+	top: 445px;
+	left: 570px;
+	display: block;
+	width: 200px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 15px;
+}
+.reg_error{
+	width: 300px;
+	height: 100px;
+	font-size: 15px;
+	color: yellow;
+}
+.error{
+	position: absolute;
+	top: 560px;
+	left: 330px;
+	color: white;
+}
+.login_error{
+	position: absolute;
+	top: 330px;
+	left: 330px;
+	color: white;
+}
+.success{
+	position: absolute;
+	top: 170px;
+	left: 330px;
+	color: white;
+}
+.success a{
+	color: white;
+}
+#success_return{
+	position: absolute;
+	top: 110px;
+	left: 450px;
+}
+#login_page{
+	margin-left: 330px;
+	margin-top: 80px;
+	color: white;
+}
+#login_page form input{
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	height: 20px;
+	line-height: 20px;
+}
+#login_page form span{
+	float: left;
+	width: 75px;
+	text-align: left;
+}
+#change_passwd_page{
+	margin-left: 200px;
+	margin-top: 80px;
+	color:white;
+}
+#change_passwd_account{
+	margin-bottom: 15px;
+}
+#change_passwd_page form input{
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	height: 20px;
+}
+#change_passwd_page form span{
+	float: left;
+	width: 90px;
+	text-align: left;
+}
+#personal_message_content{
+	color: white;
+	margin-top: 60px;
+	margin-left: 200px;
+}
+#personal_message_content p{
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+#change_btn a{
+	display: block;
+	color: white;
+	width: 100px;
+	height: 25px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid white;
+	background: url(../images/header_caption_background.jpg);
+}
+/*主页下半区*/
+
+#footer{
+	border-top: 1px solid #ebebeb;
+	width: 1100px;
+	margin: 0 auto;
+/*	margin-top: 50px;*/
+    color: #666;
+    padding: 15px 0 60px;
+    text-align: center;
+}
+.footer_copyright{
+	margin-bottom: 10px;
+}

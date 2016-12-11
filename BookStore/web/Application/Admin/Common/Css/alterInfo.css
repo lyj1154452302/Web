@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+#left_img{
+	width: 300px;
+	height: 380px;
+	/*border: 1px solid white;*/
+	margin-left: 350px;
+	margin-top: 40px;
+	position: relative;
+	float: left;
+}
+#img{
+	width: 280px;
+	height: 250px;
+	/*border: 1px solid white;*/
+	margin: 10px 0 10px 10px;
+}
+#img img{
+	margin: 20px 0 0 35px;
+}
+#img_list{
+	width: 280px;
+	height: 90px;
+	/*border: 1px solid white;*/
+	margin: 10px 0 10px 10px;
+}
+#right_content{
+	width: 500px;
+	height: 460px;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.rtitle{
+	float: left;
+	text-align: right;
+	width: 100px;
+}
+#right_content_header{
+	width: 480px;
+	height: 130px;
+	/*border: 1px solid white;*/
+	margin: 20px 0 10px 10px;
+}
+#right_content_center{
+	width: 480px;
+	height: 150px;
+	/*border: 1px solid white;*/
+	margin: 0 0 10px 10px;
+}
+#right_content_check{
+	width: 480px;
+	height: 70px;
+	/*border: 1px solid white;*/
+	margin: 0 0 10px 10px;
+}
+#price p{
+	margin-bottom: 10px;
+}
+#pubyear{
+	height:30px;line-height:30px;font-size:17px;
+}
+#pubyear option{
+	color:black;
+}
+#pubmonth{
+	height:30px;line-height:30px;font-size:17px;
+}
+#pubmonth option{
+	color:black;
+}
+#check{
+	width: 100px;
+	height: 200px;
+}
+.modal-body{
+	color:black;
+}

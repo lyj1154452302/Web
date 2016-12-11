@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+#info{
+	width: 400px;
+	height: 300px;
+	margin-left: 330px;
+	margin-top: 60px;
+}
+.ltitle{
+	float: left;
+	text-align: left;
+	width: 80px;
+}

@@ -1,0 +1,688 @@
+[ 2016-08-22T16:48:19+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.1090s ]
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+ERR: 1052:Column 'bookId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` left join bookstore_books ON bookstore_newbook_recommend.bookId = bookstore_books.bookId left join bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-22T17:00:53+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:01:12+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'price' in 'field list'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` INNER JOIN  bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  
+ERR: 1054:Unknown column 'price' in 'field list'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price` FROM `bookstore_newbook_recommend` INNER JOIN  bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-22T17:01:42+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price2` FROM `bookstore_newbook_recommend` INNER JOIN  bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT `bookId`,`bookName`,`img`,`price2` FROM `bookstore_newbook_recommend` INNER JOIN  bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  
+
+[ 2016-08-22T17:07:21+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_newbook_recommend` INNER JOIN  bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_newbook_recommend` INNER JOIN  bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  LIMIT 4  
+
+[ 2016-08-22T17:11:47+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `bookstore_newbook_recommend` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_newbook_recommend` INNER JOIN bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_newbook_recommend` INNER JOIN bookstore_book_all ON bookstore_newbook_recommend.bookId = bookstore_book_all.bookId  LIMIT 4  
+
+[ 2016-08-22T17:43:07+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_books` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all ON bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:43:42+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_books` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:43:44+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_books` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:02+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `bookstore_books` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:03+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:12+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:14+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:16+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:18+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:19+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:20+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:21+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:45:23+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:46:16+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1054:Unknown column 'bookstore_book_all.bookId' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.bookId = bookstore_book_all.bookId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T17:48:40+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.238014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013000s ]
+
+[ 2016-08-22T17:50:16+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:50:25+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:50:35+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:51:42+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:51:57+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:52:34+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:57:39+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:57:46+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Details/details.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\lyj\BookStore\web\Application\Home\Controller\DetailsController.class.php 第 15 行.
+SQL: SELECT `bookInfo`,`bookName`,`img`,`price1`,`price2`,`author`,`publisher`,`pubTime`,`totalPage`,`totalWord`,`pubNum`,`ISBN` FROM `bookstore_books` left join bookstore_book_all ON bookstore_books.boaId = bookstore_book_all.boaId left join bookstore_paper ON bookstore_books.paperId = bookstore_paper.paperId left join bookstore_packing ON bookstore_books.packingId = bookstore_packing.packingId  WHERE ( bookstore_books.boaId = 1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: bookInfo C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\fc2950505b87c49aecef0786fa7e84f9.php 第 110 行.
+NOTIC: [8] Undefined index: pubTime C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\fc2950505b87c49aecef0786fa7e84f9.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T17:59:02+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T18:00:04+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1052:Column 'boaId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `boaId`,`bookId`,`img`,`bookName`,`price` FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4  
+ERR: 1052:Column 'boaId' in field list is ambiguous
+ [ SQL语句 ] : SELECT `boaId`,`bookId`,`img`,`bookName`,`price` FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4  
+
+[ 2016-08-22T18:00:28+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `bookId`,`img`,`bookName`,`price` FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-22T18:01:43+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `bookId`,`img`,`bookName`,`price` FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-22T18:02:07+08:00 ] 127.0.0.1 /lyj/bookstore/web/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `bookId`,`img`,`bookName`,`price` FROM `bookstore_books` INNER JOIN bookstore_book_all on bookstore_books.boaId = bookstore_book_all.boaId  WHERE ( bookTypeId=1 ) LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: key C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Undefined variable: list C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 129 行.
+NOTIC: [8] Undefined variable: arr C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 133 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookId C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined index: bookName C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: nb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 143 行.
+NOTIC: [8] Undefined variable: hb_recommend C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Undefined variable: hb_rank C:\wamp\www\lyj\BookStore\web\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

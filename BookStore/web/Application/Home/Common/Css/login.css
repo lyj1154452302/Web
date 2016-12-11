@@ -1,0 +1,27 @@
+#logtip_ac{
+	position: absolute;
+	left: 560px;
+	top: 180px;
+	width: 100px;
+	display: none;
+	font-size: 14px;
+	color: #ececec;
+}
+#logtip_pw{
+	position: absolute;
+	left: 560px;
+	top: 220px;
+	width: 100px;
+	display: none;
+	font-size: 14px;
+	color: #ececec;
+}
+#logtip_identity{
+	position: absolute;
+	left: 560px;
+	top: 260px;
+	width: 100px;
+	display: none;
+	font-size: 14px;
+	color: #ececec;
+}

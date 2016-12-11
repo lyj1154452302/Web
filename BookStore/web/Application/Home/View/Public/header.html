@@ -1,0 +1,44 @@
+<div id="Header">
+	<div id="header_content">
+		<div id="logo">
+            <img src="__PUBLIC__/images/logo.png" alt="" />
+        </div>
+        <include file="./Application/Home/View/Public/menu.html" />
+        <div id="user_tip">
+            
+        </div>
+		<!-- <form action="search.php" id="search_form" method="post">
+			搜索 : <input type="text" id="search_text" name="toyname" size=40 maxlength=40 />
+			<input type="submit" value="查找" id="search_submit"/>
+		</form> -->
+	</div>
+</div>
+
+    <!-- // 	$(function(){
+    // 		$("#search_sub").click(function(){
+    // 			var text = $("#search_text").val(); //因为用户输入的内容在text里面 所以用val()方法获取
+    // 			$.ajax({
+    // 				type: "POST",
+    // 				url: "search.php",
+    // 				datatype:"json",
+    // 				data: {content_1:text},
+    // 				success: function(content){
+    // 					if(content == 2){
+    // 						alert("系统故障！");
+    // 					}else{
+    // 						$("#wanku_image").remove();
+	   //  					$("#wanku_ad").remove();
+	   //  					$("#shopping").remove();
+
+	   //  					var obj = $.parseJSON(content);
+	   //  					var html ='';
+	   //  					$.each(obj,function(contentIndex,msg){
+	   //  						html += '<div class="search_result"><a href="'+msg['toy_id']+'.php"><img src="'+msg['toy_src']+'" alt=""></a><h4><a href="'+msg['toy_id']+'.php">'+msg['toy_name']+'</a></h4><span>价格: '+msg['toy_pro_price']+'元</span></div>';
+	   //  					});
+	   //  					$("#content").html(html);
+	   //  					// alert(html);
+    // 					}
+    // 				}
+    // 			})
+    // 		})
+    // 	}) -->
